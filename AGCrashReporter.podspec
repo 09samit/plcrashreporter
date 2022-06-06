@@ -23,6 +23,5 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = {
     "GCC_PREPROCESSOR_DEFINITIONS" => "PLCR_PRIVATE PLCF_RELEASE_BUILD"
   }
-  s.libraries = "c++"
-  s.requires_arc = false
+  
 end
