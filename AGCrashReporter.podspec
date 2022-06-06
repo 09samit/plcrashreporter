@@ -8,8 +8,8 @@ Pod::Spec.new do |spec|
   spec.license     = { :type => 'MIT', :file => 'LICENSE.txt' }
   spec.authors     = { 'Amit' => '09s.amitgarg@gmail.com' }
 
-  s.ios.deployment_target =   "10.0"
-  s.tvos.deployment_target =  "10.0"
+  s.ios.deployment_target =   "9.0"
+  s.tvos.deployment_target =  "9.0"
   s.osx.deployment_target =   "10.10"
 
   s.source       = { :git => "https://github.com/09samit/plcrashreporter.git", :tag => "#{s.version}" }
