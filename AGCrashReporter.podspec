@@ -1,12 +1,12 @@
-Pod::Spec.new do |spec|
-  spec.name        = 'AGCrashReporter'
-  spec.version     = '1.10.1'
-  spec.summary     = 'Reliable, open-source crash reporting for iOS, macOS and tvOS.'
-  spec.description = 'PLCrashReporter is a reliable open source library that provides an in-process live crash reporting framework for use on iOS, macOS and tvOS. The library detects crashes and generates reports to help your investigation and troubleshooting with the information of application, system, process, thread, etc. as well as stack traces.'
+Pod::Spec.new do |s|
+  s.name        = 'AGCrashReporter'
+  s.version     = '1.10.1'
+  s.summary     = 'Reliable, open-source crash reporting for iOS, macOS and tvOS.'
+  s.description = 'PLCrashReporter is a reliable open source library that provides an in-process live crash reporting framework for use on iOS, macOS and tvOS. The library detects crashes and generates reports to help your investigation and troubleshooting with the information of application, system, process, thread, etc. as well as stack traces.'
 
-  spec.homepage    = 'https://github.com/09samit/plcrashreporter'
-  spec.license     = { :type => 'MIT', :file => 'LICENSE.txt' }
-  spec.authors     = { 'Amit' => '09s.amitgarg@gmail.com' }
+  s.homepage    = 'https://github.com/09samit/plcrashreporter'
+  s.license     = { :type => 'MIT', :file => 'LICENSE.txt' }
+  s.authors     = { 'Amit' => '09s.amitgarg@gmail.com' }
 
   s.ios.deployment_target =   "9.0"
   s.tvos.deployment_target =  "9.0"
