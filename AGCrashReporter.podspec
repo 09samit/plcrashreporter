@@ -17,11 +17,10 @@ Pod::Spec.new do |s|
   s.source_files  = "Sources/**/*.{h,hpp,c,cpp,m,mm,s}",
                     "Dependencies/protobuf-c/protobuf-c/*.{h,c}"
   
-  s.public_header_files = "Sources/include"
+  s.public_header_files = "Sources"
   s.preserve_paths = "Dependencies/**"
 
   s.pod_target_xcconfig = {
     "GCC_PREPROCESSOR_DEFINITIONS" => "PLCR_PRIVATE PLCF_RELEASE_BUILD"
   }
-  s.prefix_header_contents = '#import "PLCrashNamespace.h"'
 end
