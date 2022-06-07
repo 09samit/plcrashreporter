@@ -23,5 +23,5 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = {
     "GCC_PREPROCESSOR_DEFINITIONS" => "PLCR_PRIVATE PLCF_RELEASE_BUILD"
   }
-  
+  s.prefix_header_contents = '#import "PLCrashNamespace.h"'
 end
